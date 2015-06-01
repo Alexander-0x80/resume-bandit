@@ -1,0 +1,101 @@
+
+name:
+    first: John
+    last: Doe
+
+
+whois:
+    - Fullstack Developer
+    - Web designer
+    - Linux ninja
+
+
+about:
+    name: John Doe
+    age: "30, 1/11/1984"
+    address: "Somewhere there 45, Earth"
+    phone: "+555 55555555"
+    email: john.doe@some-mail.com
+    github: github.com/Alexander-0x80
+    languages: "English, Russian, Hebrew"
+
+
+skills:
+    coding:
+        "JavaScript, Node.js": 5
+        "Python, Django": 2
+        "PHP": 3
+        "Java, C++": 3
+        "C#, ASP.net": 1
+    tools:
+        "Apache, Nginx": 3
+        "Amazon services": 4
+        "vim": 4
+
+
+experience:
+    "2012 ~ Present":
+        title: Full Stack developer
+        company: FOObar
+        descr: > 
+            Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Oovoo palantir zoodles wikia boxbe napster revver tivo,
+            fleck joost zimbra heekya mzinga akismet voxy, ebay jumo gooru dopplr eduvant heekya movity. Koofers tumblr heekya 
+            grockit zoodles ngmoco zlio ning ebay gooru, cotweet meebo jaiku chartly ning etsy groupon meevee, jajah squidoo xobni
+            trulia cotweet chegg
+
+    "2010 ~ 2012":
+        title: Web Developer
+        company: BarFoo
+        descr: >
+            Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Oovoo palantir zoodles wikia boxbe napster revver tivo,
+            fleck joost zimbra heekya mzinga akismet voxy, ebay jumo gooru dopplr eduvant heekya movity. Koofers tumblr heekya 
+            grockit zoodles.
+
+    "2008 ~ 2010":
+        title: Software developer
+        company: foo Bar Bar
+        descr: >
+            Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Oovoo palantir zoodles wikia boxbe napster revver tivo,
+            fleck joost zimbra heekya mzinga akismet voxy, ebay jumo gooru dopplr eduvant heekya movity. Koofers tumblr heekya 
+            grockit zoodles ngmoco zlio ning ebay gooru.
+
+
+education:
+    University earth: Computer science B.A
+    Khan academy: Computer science degree
+
+
+interests:
+    coding:
+        - Operating systems
+        - Compilers
+    hardware:
+        - Arduino
+        - RaspberryPi
+    misc:
+        - Motorcycles
+        - Drawing
+        - Piano
+
+
+theme:
+    colors:
+        pri: "#2ECCFA"
+        sec: "#A4A4A4"
+
+    icons:
+        about: fa fa-user
+        skills: fa fa-bolt
+        skill: fa fa-cog
+        experience: fa fa-gavel
+        education: fa fa-graduation-cap
+        interests: fa fa-thumbs-up
+        level: fa fa-star
+        details:
+            - fa fa-comment
+            - fa fa-calendar
+            - fa fa-map-marker
+            - fa fa-phone
+            - fa fa-envelope
+            - fa fa-github
+            - fa fa-globe

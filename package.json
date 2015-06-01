@@ -1,0 +1,19 @@
+{
+  "name": "resume-bandit",
+  "version": "0.0.1",
+  "description": "Developer resume generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Alexander Ovchinnikov",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "js-yaml": "^3.3.1",
+    "underscore": "^1.8.3"
+  }
+}
