@@ -11,7 +11,7 @@ Resume Bandit
 
 ### Use
 
-    Usage: bandit [options]
+    Usage: resume-bandit [options]
 
     Options:
 
@@ -24,7 +24,7 @@ Resume Bandit
       
 If no command line arguments present, bandit has the defaults of : 
 
-     $ bandit -t templates/clean.tpl -d data/sample.yaml -e utf8 -o resume.html
+     $ resume-bandit -t templates/clean.tpl -d data/sample.yaml -e utf8 -o resume.html
      
       
 ### Example output
