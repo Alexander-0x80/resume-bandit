@@ -4,11 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>TPL</title>
-        <link rel="stylesheet" href="css/pure-min.css">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
         <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <style>             
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">        <style>             
             .pure-g [class *= "pure-u"] {
                 font-family: 'Ubuntu', sans-serif;
             }
@@ -124,6 +122,6 @@
                     <% } %>
                 </div>
             </div>
-        </div>>
+        </div>
     </body>
 </html>

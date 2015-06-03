@@ -1,7 +1,7 @@
 
 name:
-    first: John
-    last: Doe
+    first: Resume
+    last: Bandit
 
 
 whois:
@@ -11,7 +11,7 @@ whois:
 
 
 about:
-    name: John Doe
+    name: Resume Bandit
     age: "30, 1/11/1984"
     address: "Somewhere there 45, Earth"
     phone: "+555 55555555"
