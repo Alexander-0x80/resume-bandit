@@ -1,4 +1,4 @@
-Resume Bandit
+![img](etc/bandit.png) Resume Bandit
 ============
 
  > Minimalistic developer resume generator designed to fit in a single A4 page
