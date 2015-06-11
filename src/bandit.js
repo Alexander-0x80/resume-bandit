@@ -6,7 +6,7 @@ var yaml = require("js-yaml");
 var program = require("commander");
 
 program
-    .version("0.0.3")
+    .version("0.0.4")
     .option("-t, --template [path]", "Underscore template file name", "templates/clean.tpl")
     .option("-d, --data [path]", "YAML data file name", "data/sample.yaml")
     .option("-e, --encoding [charset]", "Set encoding", "utf8")
