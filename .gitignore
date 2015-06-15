@@ -1,3 +1,6 @@
 node_modules
 data/my.yaml
 .idea
+npm-debug.log
+pure-resume.html
+resume.html
