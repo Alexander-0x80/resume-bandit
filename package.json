@@ -5,8 +5,7 @@
   "main": "src/bandit.js",
   "bin": "src/bandit.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/bandit.js -t templates/pure.tpl -d data/sample.yaml -e utf8 -o pure-resume.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "resume"
