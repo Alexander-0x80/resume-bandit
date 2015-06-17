@@ -11,8 +11,16 @@
     .pure-g [class *= "pure-u"] {
       font-family: 'Ubuntu', sans-serif;
     }
-    h1, h2 {
+    h1 {
+      font-size: 42px;
+      margin-bottom: 0;
+    }
+    h2 {
       margin: 0;
+    }
+    p {
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
     .block {
       margin-top: 25px;
@@ -28,17 +36,17 @@
     .skill {
       margin-bottom: 10px;
     }
-    .experience {
+    .separator {
       position: relative;
     }
-    .experience:before {
+    .separator:before {
       content: "";
-      border-left: 1px solid <%= theme.colors.sec %>;
       display: block;
-      height: 100%;
       position: absolute;
-      left: -95px;
-      top: 0;
+      left: 44px;
+      top: 36px;
+      height: calc(100% - 51px);
+      border-left: 1px solid <%= theme.colors.sec %>;
     }
     .col-pri { color: <%= theme.colors.pri %>; }
     .col-sec { color: <%= theme.colors.sec %>; }
@@ -46,7 +54,8 @@
 </head>
 <body>
 <div class="pure-g">
-  <div class="pure-u-1">
+  <div class="pure-u-1-24"></div>
+  <div class="pure-u-22-24">
     <!-- Name -->
     <div><h1><%= name.first %> <%= name.last %></h1></div>
     <!-- Who is -->
@@ -126,10 +135,10 @@
         <% for (var timespan in experience) {  %>
         <div class="pure-g">
           <div class="pure-u-1-24"></div>
-          <div class="pure-u-5-24"><%= timespan %></div>
+          <div class="pure-u-5-24 separator"><%= timespan %></div>
           <div class="pure-u-18-24">
             <b><span class="col-pri"><%= experience[timespan].title %></span>&nbsp;&nbsp;<%= experience[timespan].company %></b>
-            <p class="experience"><%= experience[timespan].descr %></p>
+            <p><%= experience[timespan].descr %></p>
           </div>
         </div>
         <% } %>
