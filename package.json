@@ -1,6 +1,6 @@
 {
   "name": "resume-bandit",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Developer resume generator",
   "main": "src/bandit.js",
   "bin": "src/bandit.js",
