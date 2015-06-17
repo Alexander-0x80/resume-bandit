@@ -4,3 +4,4 @@ data/my.yaml
 npm-debug.log
 pure-resume.html
 resume.html
+*.pdf
