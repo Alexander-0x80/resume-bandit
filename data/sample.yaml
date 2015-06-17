@@ -61,8 +61,10 @@ experience:
 
 
 education:
-    University earth: Computer science B.A
-    Khan academy: Computer science degree
+    University earth:
+        - Computer science B.A
+    Khan academy:
+        - Computer science degree
 
 
 interests:
