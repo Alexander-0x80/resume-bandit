@@ -13,11 +13,14 @@
   "author": "Alexander Ovchinnikov",
   "repository": {
     "type": "git",
-    "url":"https://github.com/Alexander-0x80/resume-bandit.git"
+    "url": "https://github.com/Alexander-0x80/resume-bandit.git"
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "body-parser": "^1.13.2",
     "commander": "^2.8.1",
+    "consolidate": "^0.13.1",
+    "express": "^4.13.1",
     "js-yaml": "^3.3.1",
     "underscore": "^1.8.3"
   }
